@@ -1,0 +1,16 @@
+<!doctype html>
+<head>
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+	<script>
+		const data = {{ data | safe}}
+		const ctr = Object.keys(data)
+		const lst = Object.values(data)
+	</script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/plot.js') }}"></script>
+</head>
+
+<body>
+    <h1>Dashboard do Avelino</h1>
+	<div id='plot'></div>
+	<script>plot_map(ctr, lst, "plot")</script>
+</body>

@@ -1,0 +1,15 @@
+certifi==2019.9.11
+chardet==4.0.0
+click==7.1.2
+Flask==1.1.2
+idna==2.10
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+pipenv==2018.11.26
+requests==2.25.1
+urllib3==1.26.4
+virtualenv==16.7.7
+virtualenv-clone==0.5.3
+Werkzeug==1.0.1
+xmltodict==0.12.0
